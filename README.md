@@ -14,12 +14,12 @@ npm i chain-function
    console.log('bar')
  }
  
- var barfoo = chain(bar, foo)
+ var foobar = chain(foo, bar)
  
- barfoo() // "bar" "foo"
+ foobar() // "bar" "foo"
  
  //handles falsely values just fine
- barfoo = chain(bar, null, foo, undefined, false)
+ foobar = chain(foo, null, bar, undefined, false)
  
- barfoo() // "bar" "foo"
+ foobar() // "bar" "foo"
 ```
