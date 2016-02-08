@@ -18,8 +18,8 @@ npm i chain-function
  
  foobar() // "bar" "foo"
  
- //handles falsely values just fine
- foobar = chain(foo, null, bar, undefined, false)
+ //handles empty values just fine
+ foobar = chain(foo, null, bar, undefined)
  
  foobar() // "bar" "foo"
 ```
