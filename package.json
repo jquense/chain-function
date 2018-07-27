@@ -1,6 +1,6 @@
 {
   "name": "chain-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "chain a bunch of functions together into a single call",
   "main": "index.js",
   "scripts": {
